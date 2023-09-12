@@ -1,0 +1,35 @@
+html, body{
+    width: 100%;
+    height: 100dvh;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(133,57,228,1) 0%, rgba(91,49,193,1) 49%, rgba(29,23,150,1) 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 2.5%;
+}
+
+header img {
+    height: 6rem;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main img {
+    height: 70dvh;
+}
+
+#bot-widget-container-faq {
+    position: fixed;
+}
