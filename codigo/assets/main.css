@@ -5,7 +5,7 @@ html, body{
 }
 
 body {
-    background: linear-gradient(90deg, rgba(133,57,228,1) 0%, rgba(91,49,193,1) 49%, rgba(29,23,150,1) 100%);
+    background: linear-gradient(90deg, rgba(133,57,228,1) 0%, rgba(91,49,193,1) 49%,rgba(29,23,150)) 100%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
